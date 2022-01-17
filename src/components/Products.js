@@ -8,7 +8,7 @@ import StarRatings from 'react-star-ratings';
 const Products = ({image,title,description,rating,price,oneMonthPrice,threeMonthPrice}) => {
     return (
         // as in a single product card, every items are arranged in flex-col way-----------------------
-        <div className=" flex flex-col p-10 space-y-6 pb-24">
+        <div className=" flex flex-col p-10 space-y-6 pb-24 ">
 
             {/* --------first of all the image, title, and description of product------------------- */}
             <img className='h-required' src={image} alt="imag" />
@@ -31,7 +31,7 @@ const Products = ({image,title,description,rating,price,oneMonthPrice,threeMonth
             </div>
 
             {/*-------------------- for main heading price section-------------------------------------- */}
-            <div className='flex space-x-6 text-4xl md:text-5xl '>
+            <div className='flex space-x-6 text-4xl md:text-5xl'>
                 <p className='text-white font-bold font-Montserrat'>₹{price-400}</p>
                 <p className='text-gray-500 line-through font-bold font-Montserrat'>₹{price}</p>
             </div>

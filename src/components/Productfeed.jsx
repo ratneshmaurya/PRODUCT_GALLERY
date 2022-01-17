@@ -7,7 +7,7 @@ const Productfeed = ()=> {
     return (
         
         // making responsive, and showing the number of products in a row based on screen size 
-            <div className='grid md:grid-cols-2 lg:grid-cols-3'>
+            <div className=' grid md:grid-cols-2 lg:grid-cols-3'>
                 {/* mapping through each productItems and rendering on screen by using Products component */}
                 {productsDetails.map(({id,image,title,description,rating,price,oneMonthPrice,threeMonthPrice})=>(
 
@@ -16,7 +16,7 @@ const Productfeed = ()=> {
                         image={image}
                         title={title}
                         description={description}
-                        rating={rating}
+                        rating= {rating}
                         price={price}
                         oneMonthPrice={oneMonthPrice}
                         threeMonthPrice={threeMonthPrice}
