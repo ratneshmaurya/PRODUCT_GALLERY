@@ -17,8 +17,8 @@ const Header = () => {
                 <div className='flex-1'></div>
 
                 <div>
-                    <IconButton>
-                        <ShoppingCartOutlinedIcon className='text-white scale-150'/>
+                    <IconButton >
+                        <ShoppingCartOutlinedIcon className=' text-white scale-150'/>
                     </IconButton>    
                 </div>
             </div>
